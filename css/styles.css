@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .top {
+    color: lightgoldenrodyellow;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding-top: 50 px;
+    margin: 20px;
+    justify-content: space-evenly;
+  }
+  
+  .container {
+    background-color: black;
+    width: 300px;
+    height: 365px;
+    opacity: 75%;
+    flex-wrap: wrap;
+    color: white;
+    z-index: 1;
+  }
+  
+  .container a {
+    margin-left: 30%;
+  }
+  .container p {
+    font-family: cursive, Verdana, sans-serif;
+  }
+  .container button {
+    background-color: lightsalmon;
+    margin-left: 30%;
+    padding: 5%;
+    opacity: 100%;
+  }
+  .bar{
+      background-color: aqua;
+  }
+  .img{
+    float: right;
+   position: relative;
+   flex-wrap: wrap;
+  }
